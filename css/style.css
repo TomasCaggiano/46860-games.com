@@ -58,13 +58,31 @@ border: solid black;
 font-size: 2rem}
 
 
+.lol{display: grid;
+    padding-bottom: 7rem;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,22%);
+    grid-template-areas: 
+"titulo titulotrailer  titulotrailer titulotrailer"
+"foto trailer trailer trailer "
+"parrafo parrafo parrafo parrafo "
+"parrafo parrafo parrafo parrafo"
+"parrafo parrafo parrafo parrafo";
+}
+.lol:first-child{grid-area: titulo;}
+.lol:nth-child(2){grid-area: foto;}
+.lol:nth-child(4){grid-area: titulotrailer;}
+.lol:nth-child(5){grid-area: trailer;}
+    .lol p {grid-area: parrafo;
+        align-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+font-size: 2rem
+}
 
-.lol p {
-    box-sizing: border-box 100% 50rem;
-border: solid black;
-font-size: 2rem}
-
-
+.arcane{}
 .arcane p {
     box-sizing: border-box 100% 50rem;
     border: solid black;}
