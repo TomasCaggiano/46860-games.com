@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gluten:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Rubik+Iso&family=Satisfy&family=Sedgwick+Ave+Display&family=Shadows+Into+Light&family=Stint+Ultra+Condensed&family=Tilt+Prism&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.games{text-align: left;
+color: black;}
+
+ul{text-align: right;}
+
+li{display: inline;
+}
+a{color: whitesmoke;
+font-size: 2rem;}
+
+
+.index img{ border-radius: 23px;}
+
+
+.index main section h1{text-align: center;
+    font-family: 'Abril Fatface', cursive;}
+
+
+h1{ text-decoration: underline;
+
+color: black;
+font-size: 3rem;}
+footer{
+text-align: center;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvIAcMEgaPaMbODblWEh43KoQTKS3KTPdgjg&usqp=CAU);}
+footer h1{ color: darkgreen;}
+main{ 
+    background-color: rgb(179, 99, 179);     
+    }
+
+    header{background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxE7HwmU20kP0AyHWXZ1cqteXpLm35sCRFig&usqp=CAU);}
+    header h1 a {color: crimson;
+    font-size: 5rem;
+    }
+    
+
+
+
+img { border-radius: 100%;
+}
+
+p{
+font-size: 25px;
+}
+.Fnaf h1{ font-family: 'Tilt Prism', cursive;}
+.Fnaf p {font-family: 'Dancing Script', cursive;
+box-sizing: border-box 100% 30rem;
+border: solid red;
+background-color: white;
+font-size: 2rem}
+
+.lol h1{font-family: 'Sedgwick Ave Display', cursive;}
+.lol p {
+    font-family: 'Satisfy', cursive;
+    box-sizing: border-box 100% 50rem;
+border: solid black;
+font-size: 2rem}
+
+.arcane h1{font-family: 'Sedgwick Ave Display', cursive;}
+.arcane p {font-family: 'Satisfy', cursive;
+    box-sizing: border-box 100% 50rem;
+    border: solid black;}
+
+.RE h1{font-family: 'Anton', sans-serif;}
+    .RE p {font-family: 'Shadows Into Light', cursive;   
+        box-sizing: border-box 100% 50rem;
+        border: solid yellowgreen;}
+
+.valorant h1{font-family: 'Rubik Iso', cursive;
+}
+.valorant p {
+    font-family: 'Stint Ultra Condensed', serif;
+    box-sizing: border-box 100% 50rem;
+    border: solid black;}
+
+
+.pelifnaf h1{ font-family: 'Tilt Prism', cursive;}
+.pelifnaf p {font-family: 'Dancing Script', cursive;
+    box-sizing: border-box 100% 30rem;
+    border: solid red;
+background-color: white;
+font-size: 2rem}
