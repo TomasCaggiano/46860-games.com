@@ -50,7 +50,12 @@ p{overflow: hidden;
 font-size: 25px;
 font-family: 'Satisfy', cursive;
 }
-
+.valorant:hover{ cursor: cell;}
+.lol:hover{cursor: pointer ;}
+.Fnaf:hover{cursor: default;}
+.resident-evil:hover{cursor: crosshair;}
+.Fnaf img{filter: grayscale(3);}
+.Fnaf img:hover{filter: contrast(2);}
 
 .lol{display: grid;
     padding-bottom: 7rem;
@@ -97,10 +102,7 @@ font-size: 2rem
         padding-right: 1rem;
         
 }
-.valorant:hover{ cursor: cell;}
-.lol:hover{cursor: pointer ;}
-.Fnaf:hover{cursor: default;}
-.resident-evil:hover{cursor: crosshair;}
+
     .RE p {   
         box-sizing: border-box 100% 50rem;
         }
@@ -377,7 +379,7 @@ font-size: 2rem}
     
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 40% 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
     "fnaf fnaf trailer trailer "
     "parrafo parrafo parrafo parrafo "
@@ -400,3 +402,11 @@ font-size: 2rem}
     .fnafpeli{grid-area: fnaf;}
 .fnafpelitrailer{grid-area: trailer; }
 .pelifnaf p{grid-area: parrafo;font-size: 3rem;}
+
+.pregunta fieldset input{width: 100%;
+height: 3rem;
+font-size: 3rem;}
+
+#carouselExampleFade{
+    width:100%;
+align-content: center;}
