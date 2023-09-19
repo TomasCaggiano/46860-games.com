@@ -65,16 +65,14 @@ font-size: 2rem}
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5,22%);
     grid-template-areas: 
-"titulo titulotrailer  titulotrailer titulotrailer"
-"foto trailer trailer trailer "
+"lol1 lol1  loltrailer loltrailer"
+"lol1 lol1 loltrailer loltrailer"
 "parrafo parrafo parrafo parrafo "
 "parrafo parrafo parrafo parrafo"
 "parrafo parrafo parrafo parrafo";
 }
-.lol:first-child{grid-area: titulo;}
-.lol:nth-child(2){grid-area: foto;}
-.lol:nth-child(4){grid-area: titulotrailer;}
-.lol:nth-child(5){grid-area: trailer;}
+.lol1{grid-area: lol1;}
+.loltrailer{grid-area: loltrailer;}
     .lol p {grid-area: parrafo;
         align-content: center;
         padding-left: 1rem;
@@ -82,24 +80,170 @@ font-size: 2rem}
 font-size: 2rem
 }
 
-.arcane{}
-.arcane p {
+.arcane{display: grid;
+    padding-bottom: 7rem;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,22%);
+    grid-template-areas: 
+    "arcane1 arcane1 arcanetrailer arcanetrailer "
+    "arcane1 arcane1 arcanetrailer arcanetrailer "
+    "parrafo parrafo parrafo parrafo  "
+    "parrafo parrafo parrafo parrafo  "
+    "parrafo parrafo parrafo parrafo  "
+    
+}
+.arcane1{grid-area: arcane1;}
+.arcanetrailer{grid-area: arcanetrailer;}
+.arcane p {grid-area: parrafo;
     box-sizing: border-box 100% 50rem;
-    border: solid black;}
+    align-content: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+}
 
 
     .RE p {   
         box-sizing: border-box 100% 50rem;
-        border: solid black;}
+        }
 
-
-.valorant p {
+.valorant{display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5,22%);
+    grid-template-areas: 
+    "valorant valorant valoranttrailer valoranttrailer"
+    "valorant valorant valoranttrailer valoranttrailer"
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo"
+}
+.valorant1{grid-area: valorant; padding-bottom: 2rem;}
+.valoranttrailer{grid-area: valoranttrailer;}
+.valorant p {grid-area: parrafo;
     box-sizing: border-box 100% 50rem;
-    border: solid black;}
+    }
 
 
 .pelifnaf p {
     box-sizing: border-box 100% 30rem;
-    border: solid black;
+    
 
 font-size: 2rem}
+
+.RES1{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re1{grid-area: re;}
+.retrailer1{grid-area: retrailer;}
+.RES1 p{grid-area: parrafo;font-size: 2rem;}
+
+.RES2{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re2{grid-area: re;}
+.retrailer2{grid-area: retrailer;}
+.RES2 p{grid-area: parrafo;font-size: 2rem;}
+
+.RES3{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo  "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re3{grid-area: re;}
+.retrailer3{grid-area: retrailer;}
+.RES3 p{grid-area: parrafo;font-size: 3rem;}
+
+.RES4{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re4{grid-area: re;}
+.retrailer{grid-area: retrailer;}
+.RES4 p{grid-area: parrafo;font-size: 3rem;}
+.RES5{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re5{grid-area: re;}
+.retrailer5{grid-area: retrailer;}
+.RES5 p{grid-area: parrafo;font-size: 3rem;}
+.RES6{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re6{grid-area: re;}
+.retrailer6{grid-area: retrailer;}
+.RES6 p{grid-area: parrafo;font-size: 3rem;}
+.RES7{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re7{grid-area: re;}
+.retrailer7{grid-area: retrailer;}
+.RES7 p{grid-area: parrafo;font-size: 3rem;}
+.RES8{display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "re re retrailer retrailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+.re8{grid-area: re;}
+.retrailer8{grid-area: retrailer;}
+.RES8 p{grid-area: parrafo;font-size: 3rem; }
