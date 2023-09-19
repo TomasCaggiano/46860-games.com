@@ -52,12 +52,6 @@ font-family: 'Satisfy', cursive;
 }
 
 
-    .Fnaf p {
-box-sizing: border-box 100% 30rem;
-border: solid black;
-font-size: 2rem}
-
-
 .lol{display: grid;
     padding-bottom: 7rem;
     height: 100%;
@@ -103,8 +97,10 @@ font-size: 2rem
         padding-right: 1rem;
         
 }
-
-
+.valorant:hover{ cursor: cell;}
+.lol:hover{cursor: pointer ;}
+.Fnaf:hover{cursor: default;}
+.resident-evil:hover{cursor: crosshair;}
     .RE p {   
         box-sizing: border-box 100% 50rem;
         }
@@ -113,25 +109,19 @@ font-size: 2rem
     height: 100%;
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5,22%);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
     "valorant valorant valoranttrailer valoranttrailer"
-    "valorant valorant valoranttrailer valoranttrailer"
+    "parrafo parrafo parrafo parrafo"
     "parrafo parrafo parrafo parrafo "
     "parrafo parrafo parrafo parrafo"
 }
 .valorant1{grid-area: valorant; padding-bottom: 2rem;}
 .valoranttrailer{grid-area: valoranttrailer;}
 .valorant p {grid-area: parrafo;
+    font-size: 2rem;
     box-sizing: border-box 100% 50rem;
     }
-
-
-.pelifnaf p {
-    box-sizing: border-box 100% 30rem;
-    
-
-font-size: 2rem}
 
 .RES1{display: grid;
     height: 100%;
@@ -247,3 +237,166 @@ font-size: 2rem}
 .re8{grid-area: re;}
 .retrailer8{grid-area: retrailer;}
 .RES8 p{grid-area: parrafo;font-size: 3rem; }
+
+
+    .Fnaf p {
+box-sizing: border-box 100% 30rem;
+font-size: 2rem}
+.pelifnaf p {
+    box-sizing: border-box 100% 30rem;
+font-size: 2rem}
+
+#fnaf1{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf1{grid-area: fnaf;}
+.trailerfnaf1{grid-area: trailer; }
+#fnaf1 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf2{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf2{grid-area: fnaf;}
+.trailerfnaf2{grid-area: trailer; }
+#fnaf2 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf3{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 35% 65%);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf3{grid-area: fnaf;}
+.trailerfnaf3{grid-area: trailer; }
+#fnaf3 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf4{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 35 2fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf4{grid-area: fnaf;}
+.trailerfnaf4{grid-area: trailer; }
+#fnaf4 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf5{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 40% 2fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf5{grid-area: fnaf;}
+.trailerfnaf5{grid-area: trailer; }
+#fnaf5 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf6{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf6{grid-area: fnaf;}
+.trailerfnaf6{grid-area: trailer; }
+#fnaf6 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf7{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr );
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf7{grid-area: fnaf;}
+.trailerfnaf7{grid-area: trailer; }
+#fnaf7 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf8{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf8{grid-area: fnaf;}
+.trailerfnaf8{grid-area: trailer; }
+#fnaf8 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf9{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf9{grid-area: fnaf;}
+.trailerfnaf9{grid-area: trailer; }
+#fnaf9 p{grid-area: parrafo;font-size: 3rem;}
+#fnaf10{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 40% 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnaf10{grid-area: fnaf;}
+.trailerfnaf10{grid-area: trailer; }
+#fnaf10 p{grid-area: parrafo;font-size: 3rem;}
+.pelifnaf{display: grid;
+    height: 100%;
+    
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+    "fnaf fnaf trailer trailer "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "
+    "parrafo parrafo parrafo parrafo "}
+    .fnafpeli{grid-area: fnaf;}
+.fnafpelitrailer{grid-area: trailer; }
+.pelifnaf p{grid-area: parrafo;font-size: 3rem;}
