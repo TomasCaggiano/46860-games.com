@@ -13,43 +13,64 @@ header h1 a {display: flex;
     background-color: transparent;
     font-family: 'Sedgwick Ave Display', cursive;
 }
-header ul{background-color: green;
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;}
-li{padding: 1rem;}
-
-a{color: whitesmoke;
-font-size: 2rem;}
-
-
-.index img{ border-radius: 23px;}
-
-
-.index main section h1{text-align: center;
-    font-family: 'Sedgwick Ave Display', cursive;}
-
-
-h1{ text-decoration: underline;
-    font-family: 'Sedgwick Ave Display', cursive;
-
-color: black;
-font-size: 3rem;}
-footer{
-text-align: center;
-background-color: green;}
-footer h1{ color: gray;}
+header ul{background-color: green;display: flex;    list-style: none;}
 main{ 
     background-color: rgb(179, 99, 179);     
     }
+    li{padding: 1rem;}
+    a{color: whitesmoke;
+        font-size: 2rem;}
+        .index img {padding-bottom: 1rem; padding-right: 1rem; border-radius: 23px;}
+        .index main section h1{text-align: center;
+            font-family: 'Sedgwick Ave Display', cursive;}
+            h1{ text-decoration: underline;
+                font-family: 'Sedgwick Ave Display', cursive;color: black;
+                font-size: 3rem;}
+                footer{
+                    text-align: center;
+                    background-color: green;}
+                    footer h1{ color: gray;}
+                    img { border-radius: 100%;
+                        width: 40%;
+                    }
+                    p{overflow: hidden;
+                        font-size: 25px;
+                        font-family: 'Satisfy', cursive;
+                        }
+                        .pregunta fieldset input{width: 100%;
+                            height: 3rem;
+                            font-size: 3rem;}
+                            
+                            @media(max-width: 425px){
+                            header ul{display: flex;
+                                    flex-direction: column;
+                                    align-items: center;
+                                    justify-content: center;}
+                            main{
+                                display: flex;
+                                flex-direction: column;
+                                align-content: center;
+                                justify-content: center;
+                                overflow: hidden;
+                            }
+                            footer{
+                                display: flex;
+                                flex-direction: column;
+                                align-content: center;
+                                justify-content: center;
+                                }
+                                
+                                }
+                            
 
-img { border-radius: 100%;
-}
 
-p{overflow: hidden;
-font-size: 25px;
-font-family: 'Satisfy', cursive;
-}
+
+
+                            @media(min-width: 1024px){
+                            header ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;}
 .valorant:hover{ cursor: cell;}
 .lol:hover{cursor: pointer ;}
 .Fnaf:hover{cursor: default;}
@@ -401,12 +422,5 @@ font-size: 2rem}
     "parrafo parrafo parrafo parrafo "}
     .fnafpeli{grid-area: fnaf;}
 .fnafpelitrailer{grid-area: trailer; }
-.pelifnaf p{grid-area: parrafo;font-size: 3rem;}
+.pelifnaf p{grid-area: parrafo;font-size: 3rem;}}
 
-.pregunta fieldset input{width: 100%;
-height: 3rem;
-font-size: 3rem;}
-
-#carouselExampleFade{
-    width:100%;
-align-content: center;}
