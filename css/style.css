@@ -288,7 +288,7 @@ font-size: 2rem}
     
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 40% 1fr);
     grid-template-areas:
     "fnaf fnaf trailer trailer "
     "parrafo parrafo parrafo parrafo "
@@ -302,7 +302,7 @@ font-size: 2rem}
     
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 35% 65%);
+    grid-template-rows: repeat(4, 1fr);
     grid-template-areas:
     "fnaf fnaf trailer trailer "
     "parrafo parrafo parrafo parrafo "
@@ -330,7 +330,7 @@ font-size: 2rem}
     
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 40% 2fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas:
     "fnaf fnaf trailer trailer "
     "parrafo parrafo parrafo parrafo "
@@ -344,7 +344,7 @@ font-size: 2rem}
     
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 40% 1fr);
     grid-template-areas:
     "fnaf fnaf trailer trailer "
     "parrafo parrafo parrafo parrafo "
@@ -358,7 +358,7 @@ font-size: 2rem}
     
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr );
+    grid-template-rows: repeat(2, 40% );
     grid-template-areas:
     "fnaf fnaf trailer trailer "
     "parrafo parrafo parrafo parrafo "
