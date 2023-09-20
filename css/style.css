@@ -6,6 +6,7 @@
     box-sizing: border-box;
     
 } 
+body{background-color: green;}
 header h1 a {display: flex;
     color: crimson;
     font-size: 3rem;
@@ -13,7 +14,8 @@ header h1 a {display: flex;
     background-color: transparent;
     font-family: 'Sedgwick Ave Display', cursive;
 }
-header ul{background-color: green;display: flex;    list-style: none;}
+header ul{margin: 0; 
+    padding: 0; background-color: green; display: flex;    list-style: none;}
 main{ 
     background-color: rgb(179, 99, 179);     
     }
@@ -68,7 +70,8 @@ main{
 
 
                             @media(min-width: 1024px){
-                            header ul{
+                            header{background-color: green;}
+                                header ul{
                                 padding-left: 25%;
     display: flex;
     justify-content: flex-end;
